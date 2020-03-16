@@ -1,0 +1,134 @@
+
+
+body {
+    background-color: #82DDB5;
+    background-image: url('img/illustration.gif'), url('img/texture.jpg');
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto;
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 1.2em;
+}
+
+.sponsorimages {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.socialimages {
+    margin-left: 580px;
+    margin-right: 580px;
+}
+
+#nav {
+    background-color: #6B9;
+    border-bottom: 2px dashed #487;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    word-spacing: 2em;
+}
+
+#header{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logo {
+    max-width: 360px;
+}
+
+#description, #date {
+    max-width: 220px;
+}
+
+.register_btn {
+    background-color: #E43;
+    border: 2px dashed #A43;
+    border-radius: 2m;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+
+#what {
+    background-color: rgba(199, 238, 221, 0.75);
+    color: #347788;
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+#why {
+    background-color: #B6EAD3;
+    color: #347788;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#where {
+    background-image: url(img/map.gif);
+    color: #bb4488;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 250px;
+    padding-left: 250px;
+    height: 450px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#when {
+    background-color: #439998;
+    background-image: url(img/wires.png);
+    color: #F5F5F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    border: dashed;
+    border-color: white;
+}
+
+#who {
+    background-color: #F5F5F5;
+    color: #347788;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
