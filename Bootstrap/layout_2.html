@@ -10,27 +10,42 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         
         <style>
+            
+            
+            
+            /* I've put my best effort into this task but I couldn't work out how to get the div elements to sit next to each other. I attempted to incorporate CSS height: auto into the code but I couldn't get it to work in the way that I hoped it would. */
+            
+            
       
             * { outline: white 8px solid }
             
             .blue {
                 background-color: #3FB4FF;
-                height: 50px;
+                height: 80px;
             }
             
             .green {
                 background-color: greenyellow;
-                height: 150px;
+                height: 80px;
             }
             
             .orange {
                 background-color: orange;
-                height: 250px;
+                height: 600px;
             }
             
             .grey {
                 background-color: lightgray;
-                height: 60px;
+                height: 200px;
+            }
+            
+            .pink {
+                background-color: #EA92ED;
+            }
+            
+            .magenta {
+                background-color: #AD3753;
+                height: 350px;
             }
             
             
@@ -49,12 +64,11 @@
             @media (min-width: 768px) {
                 body { background-color: yellow }
                 
-                .green {
-                height: 200px;
-            }
-                .orange {
-                    height: 100px;
-                }
+                .green { height: 200px; }
+                
+                .orange { width: 50%; }
+                
+                .magenta { width: 50%; }
             }
             
             
@@ -62,17 +76,18 @@
             @media (min-width: 992px) {
                 body { background-color: green }
                 
-                .green {
-                    height: 250px;
-                }
+                .blue { height: 50px; }
                 
-                .orange {
-                    height: 200px;
-                }
+                .green { height: 900px; }
                 
-                .grey {
-                    height: 180px;
-                }
+                .orange { height: 900px; }
+                
+                .magenta { height: 900px; }
+                
+                .grey { height: 150px; }
+                
+                .pink { height: 150px; }
+                
             }
             
             
@@ -96,46 +111,35 @@
             </div>
             
             <div class="row">
-                <div class="col-12 green"></div> 
+                <div class="col-sm-12 col-lg-3 green"></div> 
             </div>
             
-            <div class="row">
-                <div class=col-sm-6 grey></div>
-                <div class=col-sm-6 grey></div>
-                <div class=col-sm-6 grey></div>
-                <div class=col-sm-6 grey></div>
-                <div class=col-sm-6 grey></div>
-                <div class=col-sm-6 grey></div>
+            
+            <div class="container-fluid col-sm-12 col-md-6 col-lg-6 orange">
+            
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 grey"></div>
+                    <div class="d-none d-sm-block d-md-block col-lg-8 pink"></div>
+                    <div class="col-sm-6 col-lg-4 grey"></div>
+                    <div class="d-none d-sm-block d-md-block col-lg-8 pink"></div>
+                    <div class="col-sm-6 col-lg-4 grey"></div>
+                    <div class="d-none d-sm-block d-md-block col-lg-8 pink"></div>
+                    <div class="col-sm-6 col-lg-4 grey"></div>
+                    <div class="d-none d-sm-block d-md-block col-lg-8 pink"></div>
+                    <div class="col-sm-6 col-lg-4 grey"></div>
+                    <div class="d-none d-sm-block d-md-block col-lg-8 pink"></div>
+                    <div class="col-sm-6 col-lg-4 grey"></div>
+                    <div class="d-none d-sm-block d-md-block col-lg-8 pink"></div>
+                </div>
+                
             </div>
                 
+    
             <div class="row">
-                <div class="col-sm-12 purple"></div>s
+                 <div class="col-sm-12 col-md-6 col-lg-3 magenta"></div>
+            </div>                
+            
             </div>
-                
-            </div>
-        
-        
-        
-        
-        
-        </div>
-        
-        <div class="row">
-            <div class="col-md-4 orange"></div>
-            <div class="col-md-4 orange"></div>
-            <div class="col-md-4 orange"></div>
-        </div>
-        
-        <div class="row">
-            <div class="d-none d-sm-block col-md-6 col-lg-3 grey"></div>
-            <div class="d-none d-sm-block col-md-6 col-lg-3 grey"></div>
-            <div class="d-none d-sm-block col-md-6 col-lg-3 grey"></div>
-            <div class="d-none d-sm-block col-md-6 col-lg-3 grey"></div>
-        
-        </div>
-        
-        
-        
         
     </body>
     
