@@ -97,7 +97,6 @@
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
         
-        
         //move eyes down event listener
         document.getElementById('eyes_down_btn').addEventListener('click', function() {
             eye_left_y += 10;
@@ -124,23 +123,20 @@
         
         //hollow eyes
         document.getElementById('hollow_eyes_btn').addEventListener('click'), function() {
-            
-        }
+            <img id="eye_left" src="eye_hollow.svg" />
+            <img id="eye_right" src="eye_hollow.svg" /> 
+        });
         
         //solid eyes
         document.getElementById('solid_eyes_btn').addEventListener('click'), function() {
-            
-        }
+            <img id="eye_left" src="eye_solid.svg" />
+            <img id="eye_right" src="eye_solid.svg" />
+        });
         
         //no right eye
-        document.getElementById('hollow_eyes_btn').addEventListener('click'), function() {
-            
-        }
-        
-        //hollow eyes
-        document.getElementById('hollow_eyes_btn').addEventListener('click'), function() {
-            
-        }
+        // document.getElementById('no_right_eye_btn').addEventListener('click'), function() {
+           //  <img id="eye_right" src="eye_solid.svg" /> 
+        //});
         
         //move mouth up event listener
         document.getElementById('mouth_up_btn').addEventListener('click', function() {
@@ -154,6 +150,22 @@
             document.getElementById('mouth').style.top = mouth_y + 'px';
         });
         
+        //happy mouth
+        document.getElementById('happy_btn').addEventListener('click', function() {
+            <img id="mouth" src="mouth_happy.svg" />
+        });
+            
+        //happy mouth
+        document.getElementById('sad_btn').addEventListener('click', function() {
+            <img id="mouth" src="mouth_sad.svg" />
+        }); 
+            
+        //reset
+        // document.getElementById('reset_btn').addEventListener('click', function() {
+        // });
+
+            
+            
         
         
     </script>
